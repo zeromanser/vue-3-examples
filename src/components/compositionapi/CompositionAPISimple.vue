@@ -7,6 +7,7 @@
 
 <script>
 import { ref } from "vue";
+
 export default {
     setup () {
         const count = ref(3)
@@ -19,7 +20,7 @@ export default {
             count.value--;
         }
 
-        return {increase, decrease, count}
+        return {increase, decrease, count};
     }
 }
 </script>
